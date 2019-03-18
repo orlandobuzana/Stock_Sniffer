@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Results fo: </string>
   </property>
-  <widget class="QPushButton" name="exitbtn">
+  <widget class="QPushButton" name="printtbtn">
    <property name="geometry">
     <rect>
      <x>260</x>
@@ -23,7 +23,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Exit</string>
+    <string>Print</string>
    </property>
   </widget>
   <widget class="QPushButton" name="savebtn">

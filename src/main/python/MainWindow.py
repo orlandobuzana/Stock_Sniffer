@@ -8,7 +8,7 @@
 from fbs_runtime.application_context import ApplicationContext
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-from ResultsDialogg import Ui_DialogCheck
+from Results import Ui_Results
 
 
 class Ui_MainWindowAnalytics(ApplicationContext):#object):
@@ -58,8 +58,8 @@ class Ui_MainWindowAnalytics(ApplicationContext):#object):
 
     def newWindow(self):
 
-        self.window2 = QtWidgets.QDialog()
-        self.ui = Ui_DialogCheck()
+        self.window2 = QtWidgets.QWidget()
+        self.ui = Ui_Results()
         self.ui.setupUi(self.window2)
         self.window2.show()
 
